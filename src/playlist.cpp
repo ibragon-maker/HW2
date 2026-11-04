@@ -1,4 +1,5 @@
 #include "playlist.h"
+#include "duration.h"
 
 Playlist::Playlist(int capacity) {
     if (capacity < 1) {
